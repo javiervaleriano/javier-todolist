@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="Normalize.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Noto+Sans:wght@700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main">
+        <section id="container">
+            <div id="inside-container">
+                <div class="cont-header">
+                    <p class="alert"></p>
+                    <h1 id="title-list">Things to do</h1>
+                    <form id="form" method="get" accept-charset="utf-8">
+                        <input type="text" name="text-item" id="text-item" placeholder="e.g. encode" />
+                        <button type="submit" id="submit-btn">submit</button>
+                    </form>
+                </div>
+                <div class="cont-items">
+                    <table id="to-do-list">
+                        <tbody class="body-table">
+                        </tbody>
+                    </table>
+                    <button type="button" class="clear-items">Clear Items</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JS -->
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
